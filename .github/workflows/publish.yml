@@ -1,0 +1,129 @@
+name: Publish
+
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.event.pull_request.head.label || github.ref }}
+
+on:
+  push:
+    branches:
+      - '*'
+
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  build-lint-test-release:
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          # - ubuntu-latest
+          # - windows-latest
+          - macos-13
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Check out current repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🌱 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: 'yarn'
+          node-version-file: '.nvmrc'
+
+      # see https://github.com/vercel/next.js/pull/27362
+      - name: 💽 Restore Cache
+        if: ${{ !github.event.act }}
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ github.workspace }}/renderer/.next/cache
+            # Caches things like Electron and Chromium
+            ${{ github.workspace }}/.cache
+            ~/.cache
+            ${{ github.workspace }}/**/tsconfig.tsbuildinfo
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('renderer/**.[jt]sx?', 'main/**.[jt]s') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-
+
+      - name: 📥 Install Dependencies
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: 👁️ Ensure Code is Linted
+        if: matrix.os == 'macos-latest'
+        run: |
+          yarn lint:check
+      - name: 🚧 Ensure Code is Formatted
+        if: matrix.os == 'macos-latest'
+        run: |
+          yarn format:check
+      - name: 🤖 Build Project
+        run: |
+          yarn build
+      - name: Setup Docker on macOS using Colima, Lima-VM, and Homebrew.
+        uses: douglascamata/setup-docker-macos-action@v1-alpha
+        id: docker
+      - name: Get the Docker client version
+        run: |
+          echo "Docker client version: ${{ steps.docker.outputs.docker-client-version }}"
+      - name: ⛲ Build for every platform
+        if: matrix.os == 'macos-latest'
+        run: |
+          yarn electron-builder -mwl
+      - name: 🥳 Run Basic Tests
+        if: matrix.os == 'macos-latest'
+        run: |
+          yarn wdio
+      # - name: 📤 Upload Code coverage to Codecov
+      #   if: ${{ !github.event.act }}
+      #   uses: codecov/codecov-action@v3
+
+      - uses: actions/upload-artifact@v3
+        if: ${{ !github.event.act }}
+        with:
+          name: Build Artifacts
+          # Make sure to not include any folder with 'unpacked' in it.
+          # Also, don't include yaml files unless they start with the string 'latest'.
+          path: |
+            ./release/
+      - name: List all files in the repository
+        if: ${{ !github.event.act }} && matrix.os == 'macos-latest'
+        run: |
+          ls -lR
+      - name: Import GPG key
+        id: import_gpg
+        if: ${{ !github.event.act }} && github.event_name != 'pull_request' && matrix.os == 'macos-latest'
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_tag_gpgsign: false
+          git_push_gpgsign: false
+      - name: 🌋 Publish to the great interwebs.
+        uses: cycjimmy/semantic-release-action@v4
+        if: ${{ !github.event.act }} && github.event_name != 'pull_request' && matrix.os == 'macos-latest'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIT_AUTHOR_NAME: ${{ steps.import_gpg.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.import_gpg.outputs.email }}
+          GIT_COMMITTER_NAME: ${{ steps.import_gpg.outputs.name }}
+          GIT_COMMITTER_EMAIL: ${{ steps.import_gpg.outputs.email }}
+          signingKeyId: ${{ steps.import_gpg.outputs.keyid }}
+          signingKey: ${{ secrets.GPG_PRIVATE_KEY }}
+          signingPassword: ${{ secrets.PASSPHRASE }}
+          GH_URL: 'https://api.github.com/'
+          HUSKY: 0

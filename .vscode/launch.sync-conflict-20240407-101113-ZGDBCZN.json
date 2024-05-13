@@ -1,0 +1,61 @@
+{
+  "compounds": [
+    {
+      "name": "Nextron: All",
+      "preLaunchTask": "dev",
+      "configurations": [
+        "Nextron: Main",
+        "Nextron: Renderer"
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Nextron: Main",
+      "type": "node",
+      "request": "attach",
+      "protocol": "inspector",
+      "port": 9292,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "sourceMapPathOverrides": {
+        "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
+        "webpack:///./*": "${workspaceFolder}/*",
+        "webpack:///*": "*"
+      }
+    },
+    {
+      "name": "Nextron: Renderer",
+      "type": "chrome",
+      "request": "attach",
+      "port": 5858,
+      "timeout": 10000,
+      "urlFilter": "http://localhost:*",
+      "webRoot": "${workspaceFolder}/app",
+      "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${webRoot}/*"
+      }
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/romvnly/Documents/Projects/ERomu-next",
+      "program": "/home/romvnly/Documents/Projects/ERomu-next/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "version": "0.2.0"
+}

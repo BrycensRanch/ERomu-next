@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="207844f9-5d86-4d0f-b152-514701c49889" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/pull_request_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/renovate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/CodeQL.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/cleanup.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/locker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/prbranch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/semantic-pr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/todo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.hintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/commit-msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ERomu-next.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.markdownlint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OVERVIEW.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beforePack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electron-builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lint-staged.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/background.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/helpers/create-window.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/preload.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/preload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/roku.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/roku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/update.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/.DirIcon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/AppRun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/LICENSE.electron.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/LICENSES.chromium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/chrome-sandbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/chrome_100_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/chrome_200_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/chrome_crashpad_handler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/eromu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/eromu.desktop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/eromu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/libEGL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/libGLESv2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/libffmpeg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/libvk_swiftshader.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/libvulkan.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/af.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/ur.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/resources/app-update.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/resources/app.asar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/snapshot_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/.DirIcon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/AppRun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/LICENSE.electron.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/LICENSES.chromium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/chrome-sandbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/chrome_100_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/chrome_200_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/chrome_crashpad_handler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/eromu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/eromu.desktop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/eromu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/libEGL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/libGLESv2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/libffmpeg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/libvk_swiftshader.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/libvulkan.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/af.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/ur.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/resources/app-update.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/resources/app.asar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/snapshot_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libXss.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libXtst.so.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libappindicator.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libgconf-2.so.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libindicator.so.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/lib/libnotify.so.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/usr/share/icons/hicolor/0x0/apps/eromu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/v8_context_snapshot.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/squashfs-root/vk_swiftshader_icd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libXss.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libXtst.so.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libappindicator.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libgconf-2.so.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libindicator.so.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/lib/libnotify.so.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/usr/share/icons/hicolor/0x0/apps/eromu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/v8_context_snapshot.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/AppDir/vk_swiftshader_icd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/ERomu-1.0.0.AppImage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/ERomu-x86_64.AppImage.zsync" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/ERomu_1.0.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/appimagetool-x86_64.AppImage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/builder-debug.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/builder-effective-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/latest-linux.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/LICENSE.electron.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/LICENSES.chromium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/chrome-sandbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/chrome_100_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/chrome_200_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/chrome_crashpad_handler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/eromu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/libEGL.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/libGLESv2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/libffmpeg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/libvk_swiftshader.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/libvulkan.so.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/af.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/ur.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/resources/app-update.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/resources/app.asar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/snapshot_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/v8_context_snapshot.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/linux-unpacked/vk_swiftshader_icd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/ERomu.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/LICENSE.electron.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/LICENSES.chromium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/chrome_100_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/chrome_200_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/d3dcompiler_47.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/ffmpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/af.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/ur.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/resources/app.asar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/snapshot_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/v8_context_snapshot.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/vk_swiftshader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/vk_swiftshader_icd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/1.0.0/win-unpacked/vulkan-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/VolumeHighIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/VolumeLowIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/disclaimer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/remote.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/Modal/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/Progress/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/electron-updater.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/components/update/update-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/no-babel.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/pages/home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/pages/settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/pages/settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/postcss.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/preload.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/Boss Music - Dragon Slayer - Makai-symphony.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/Boss Music - Dragon Slayer - Makai-symphony.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Variable.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Variable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Variable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-Variable.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-VariableItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-VariableItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-VariableItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/fonts/Satoshi-VariableItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/styles/satoshi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/tailwind.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renderer/tsconfig.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/specs/test.e2e.mts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/firstWindow.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wdio.conf.mts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dFe7lPS3pzQNqUMbnajEa52AV4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance": "JavaScript: code vision performance watcher",
+    "Notification.DoNotAsk-JavaScript: Code Vision Performance": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.25",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/home/romvnly/Documents/Projects/ERomu-next/renderer/public/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/home/romvnly/Documents/Projects/ERomu-next/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/romvnly/Documents/Projects/ERomu-next/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/renderer/public/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/renderer/components/update" />
+      <recent name="$PROJECT_DIR$/renderer/components" />
+      <recent name="$PROJECT_DIR$/renderer/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/renderer" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="207844f9-5d86-4d0f-b152-514701c49889" name="Changes" comment="" />
+      <created>1709608088779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709608088779</updated>
+      <workItem from="1709608089881" duration="5818000" />
+      <workItem from="1709616368016" duration="1656000" />
+      <workItem from="1709680117246" duration="118000" />
+      <workItem from="1709680252783" duration="31399000" />
+      <workItem from="1709741545649" duration="872000" />
+      <workItem from="1709742514404" duration="29119000" />
+      <workItem from="1709815420081" duration="993000" />
+      <workItem from="1709816430724" duration="8167000" />
+      <workItem from="1709825336538" duration="1914000" />
+      <workItem from="1709835187051" duration="5107000" />
+      <workItem from="1709925027187" duration="1682000" />
+      <workItem from="1709943441558" duration="274000" />
+      <workItem from="1709943728770" duration="18048000" />
+      <workItem from="1710000838385" duration="2640000" />
+      <workItem from="1710008686462" duration="5911000" />
+      <workItem from="1710030821698" duration="5546000" />
+      <workItem from="1710044197848" duration="33626000" />
+      <workItem from="1710156831216" duration="10743000" />
+      <workItem from="1710193105211" duration="4223000" />
+      <workItem from="1710249490638" duration="13367000" />
+      <workItem from="1710329892611" duration="2329000" />
+      <workItem from="1710332301815" duration="743000" />
+      <workItem from="1710333060024" duration="2168000" />
+      <workItem from="1710335240083" duration="5667000" />
+      <workItem from="1710348471516" duration="7406000" />
+      <workItem from="1710422758031" duration="1638000" />
+      <workItem from="1710424409455" duration="4353000" />
+      <workItem from="1710437219346" duration="1892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/main/preload.d.ts" />
+        <option value="$PROJECT_DIR$/wdio.conf.mjs" />
+        <option value="$PROJECT_DIR$/playwright.config.js" />
+        <option value="$PROJECT_DIR$/main/background.js" />
+        <option value="$PROJECT_DIR$/main/update.js" />
+        <option value="$PROJECT_DIR$/main/preload.js" />
+        <option value="$PROJECT_DIR$/renderer/components/VolumeHighIcon.jsx" />
+        <option value="$PROJECT_DIR$/renderer/components/VolumeLowIcon.jsx" />
+        <option value="$PROJECT_DIR$/renderer/components/remote.jsx" />
+        <option value="$PROJECT_DIR$/renderer/components/disclaimer.jsx" />
+        <option value="$PROJECT_DIR$/renderer/components/update/index.jsx" />
+        <option value="$PROJECT_DIR$/renderer/components/update/Progress/index.jsx" />
+        <option value="$PROJECT_DIR$/tests/firstWindow.test.js" />
+        <option value="$PROJECT_DIR$/test/specs/test.e2e.mjs" />
+        <option value="$PROJECT_DIR$/renderer/pages/home.jsx" />
+        <option value="$PROJECT_DIR$/renderer/pages/_app.jsx" />
+        <option value="$PROJECT_DIR$/renderer/pages/settings.jsx" />
+        <option value="$PROJECT_DIR$/main/helpers/create-window.js" />
+        <option value="$PROJECT_DIR$/main/helpers/index.js" />
+        <option value="$PROJECT_DIR$/renderer/components/update/Modal/index.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

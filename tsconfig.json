@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "moduleDetection": "auto",
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "inlineSourceMap": true,
+    "jsx": "preserve",
+    "outDir": "app",
+  },
+  "exclude": [
+    "node_modules",
+    "renderer/next.config.js",
+    "app",
+    "dist",
+    "**.cjs",
+    "renderer/app",
+    "renderer/out",
+    "renderer/.next",
+    "**.config**",
+    "beforePack.mjs"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.mjs",
+    "**/*.mts",
+  ]
+}

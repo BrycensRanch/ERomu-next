@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automerge": true,
+  "automergeSchedule": ["after 10pm every weekday", "before 5am every weekday", "every weekend"],
+  "baseBranches": ["master"],
+  "branchConcurrentLimit": 20,
+  "branchPrefix": "dep/",
+  "branchPrefixOld": "renovate/",
+  "extends": ["config:base", ":semanticCommitTypeAll(chore)"],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["action"],
+      "labels": ["actions"]
+    }
+  ],
+  "prConcurrentLimit": 0,
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0,
+  "semanticCommits": "enabled",
+  "timezone": "America/New_York"
+}

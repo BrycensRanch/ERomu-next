@@ -1,0 +1,7 @@
+*node_modules*
+*release*
+*dist*
+*dist-electron*
+*.pnpm-store*
+*.next*
+renderer/out
