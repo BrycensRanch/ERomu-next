@@ -47,7 +47,7 @@
   "dependencies": {
     "@aptabase/electron": "^0.3.1",
     "@nextui-org/react": "^2.3.6",
-    "@sentry/electron": "^4.24.0",
+    "@sentry/electron": "^5.0.0",
     "@sentry/nextjs": "^7.114.0",
     "@sentry/webpack-plugin": "^2.16.1",
     "@tailwindcss/typography": "^0.5.13",
