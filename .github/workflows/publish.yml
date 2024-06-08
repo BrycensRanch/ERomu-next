@@ -43,7 +43,7 @@ jobs:
       # see https://github.com/vercel/next.js/pull/27362
       - name: 💽 Restore Cache
         if: ${{ !github.event.act }}
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ${{ github.workspace }}/renderer/.next/cache
