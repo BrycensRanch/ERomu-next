@@ -1,5 +1,9 @@
 <p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
 
+# Do not use
+
+The code here is bad. Its also written in Electron.
+
 ## Usage
 
 ## Roadmap
