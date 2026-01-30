@@ -62,7 +62,7 @@
     "electron-serve": "^2.0.0",
     "electron-store": "^9.0.0",
     "electron-updater": "^6.1.8",
-    "fast-xml-parser": "^4.3.6",
+    "fast-xml-parser": "^4.4.1",
     "framer-motion": "^11.1.9",
     "lodash": "^4.17.21",
     "nextjs-progressbar": "^0.0.16",
