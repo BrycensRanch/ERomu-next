@@ -3432,11 +3432,11 @@
   integrity sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==
 
 "@playwright/test@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.44.0.tgz#ac7a764b5ee6a80558bdc0fcbc525fcb81f83465"
-  integrity sha512-rNX5lbNidamSUorBhB4XZ9SQTjAqfe5M+p37Z8ic0jPFBMo5iCtQz1kRWkEMg+rYOKSlVycpQmpqjSFq7LXOfg==
+  version "1.63.0"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.63.0.tgz#808020c46e8b6b91f9d628cd0ebcbb32bdfd8b6c"
+  integrity sha512-oxMK4vllB9RK5NQ2l1pq1IfOf2AvnEuj/vYGDj0H2nMtmtZpKtCwt/l00GEO6xjGfpBNAvjovvYdCm50dRQkpQ==
   dependencies:
-    playwright "1.44.0"
+    playwright "1.63.0"
 
 "@pnpm/config.env-replace@^1.1.0":
   version "1.1.0"
@@ -14640,12 +14640,24 @@ playwright-core@1.44.0:
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.44.0.tgz#316c4f0bca0551ffb88b6eb1c97bc0d2d861b0d5"
   integrity sha512-ZTbkNpFfYcGWohvTTl+xewITm7EOuqIqex0c7dNZ+aXsbrLj0qI8XlGKfPpipjm0Wny/4Lt4CJsWJk1stVS5qQ==
 
+playwright-core@1.63.0:
+  version "1.63.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.63.0.tgz#e57665bc32846c213ac39a1e4d5bc6228e76b376"
+  integrity sha512-rYCsBF/M5HjUch52bbtVONEFjv6Xu8sm8h72dNlR5bzIE1fvC/bxgspzkjSfU+MweEMmPM8KJebG6nnyxo5mCg==
+
 playwright-test-coverage@^1.2.12:
   version "1.2.12"
   resolved "https://registry.yarnpkg.com/playwright-test-coverage/-/playwright-test-coverage-1.2.12.tgz#c31bd50625ff916b57183af7b4b622f9aa2c341c"
   integrity sha512-WdR3shV+7IWtlB1AZcXSysUyZmyAqXM9+DT3iBSS1p4SkJoWZslkTqk04l5ZExSkuaM+5fKl0M9TyUuJWuGgLA==
 
-playwright@1.44.0, playwright@^1.44.0:
+playwright@1.63.0:
+  version "1.63.0"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.63.0.tgz#99b56f9f69b1b70c44f00bf84b2fe52348ae2511"
+  integrity sha512-+7ziBLidS4NaNCdt57SUDT+wYmmd5fmiQejUic/kb+YsYSCPyOOE9sebzMjNmQrsnNpDJqd4WHvV/8lfKfUDUg==
+  dependencies:
+    playwright-core "1.63.0"
+
+playwright@^1.44.0:
   version "1.44.0"
   resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.44.0.tgz#22894e9b69087f6beb639249323d80fe2b5087ff"
   integrity sha512-F9b3GUCLQ3Nffrfb6dunPOkE5Mh68tR7zN32L4jCk4FjQamgesGay7/dAAe1WaMEGV04DkdJfcJzjoCKygUaRQ==
