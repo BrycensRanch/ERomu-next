@@ -121,7 +121,7 @@
     "commitizen": "^4.3.0",
     "commitlint-config-monorepo": "^2.0.2",
     "concurrently": "^8.2.2",
-    "electron": "^30.0.3",
+    "electron": "^39.0.0",
     "electron-builder": "^25.0.0-alpha.6",
     "electron-devtools-installer": "^3.2.0",
     "eslint": "^9.2.0",
