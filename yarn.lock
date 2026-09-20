@@ -16845,9 +16845,9 @@ synckit@^0.8.6:
     tslib "^2.6.2"
 
 systeminformation@^5.22.9:
-  version "5.22.9"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.22.9.tgz#68700a895a48cbf96e2cd6a34c5027d1fe58f053"
-  integrity sha512-qUWJhQ9JSBhdjzNUQywpvc0icxUAjMY3sZqUoS0GOtaJV9Ijq8s9zEP8Gaqmymn1dOefcICyPXK1L3kgKxlUpg==
+  version "5.33.13"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.33.13.tgz#6b5e8d2f3203e1e7bb5e4bb0e897c496179fc60e"
+  integrity sha512-GtyakkchTQKymM1WeAB652zi3rM1q00RKdc+jZe9KGstuc/mWUwAnQGN/RE5gVYvHIR8xYOUIUD9irVKDtA0wA==
 
 tailwind-merge@^1.14.0:
   version "1.14.0"
